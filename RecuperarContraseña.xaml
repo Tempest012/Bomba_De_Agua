@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Bomba_De_Agua.RecuperarContraseña"
+             Title="RecuperarContraseña">
+    <VerticalStackLayout>
+        <Label 
+            Text="Recuperar contraseña"
+            VerticalOptions="Center" 
+            HorizontalOptions="Center" 
+            FontSize="Title"/>
+        <Label></Label>
+        <Label Text="Ingresa la nueva contraseña"/>
+        <Entry Placeholder="Nueva Contraseña" x:Name="nuevaContraseña" IsPassword="True"/>
+        <Label/>
+        <Label Text="Confirma la nueva contraseña"/>
+        <Entry Placeholder="Confirma Contraseña" x:Name="confirmaContraseña" IsPassword="True"/>
+        <Button Text="Recuperar" VerticalOptions="Center" HorizontalOptions="Center"/>
+    </VerticalStackLayout>
+</ContentPage>

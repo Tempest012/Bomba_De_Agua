@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Bomba_De_Agua.Configuracion"
+             Title="Configuracion">
+    <VerticalStackLayout>
+        <Label VerticalOptions="Center" HorizontalOptions="Center" FontSize="Title">Configuracion</Label>
+        <Label/>
+        <Label/>
+        <Label VerticalOptions="Center" HorizontalOptions="Center">Opciones de apagados automático de la bomba</Label>
+        <Label/>
+        <Label/>
+        <Label >Apagado con la cantidad de litros</Label>
+        <Entry Placeholder="Litros" Keyboard="Numeric" x:Name="litros" />
+        <Button Text="Activa" VerticalOptions="Center" HorizontalOptions="Center"/>
+        <Label/>
+        <Label>Apagado por tiempo</Label>
+        <Entry Placeholder="Minutos" Keyboard="Numeric" x:Name="minutos" />
+        <Button Text="Activa" VerticalOptions="Center" HorizontalOptions="Center"/>
+    </VerticalStackLayout>
+</ContentPage>

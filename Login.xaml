@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Bomba_De_Agua.Login"
+             Title="Login">
+
+
+    <ContentPage.Content>
+        <VerticalStackLayout Spacing="0" Padding="20,0">
+            <Grid Margin="0,20,0,0">
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition/>
+                    <ColumnDefinition/>
+                </Grid.ColumnDefinitions>
+                <Label Text="Bienvenidos" FontSize="33"/>
+            </Grid>
+
+            <VerticalStackLayout Margin="0,20,0,0">
+                <Label Text="Correo"/>
+                <Entry Placeholder="Ingresa correo" Margin="0,0"/>
+                <BoxView HeightRequest="1" Color="#4529BA"/>
+            </VerticalStackLayout>
+
+            <VerticalStackLayout Margin="0,20,0,0">
+                <Label Text="Contraseña"/>
+                <Entry Placeholder="Ingresa contraseña" Margin="0,0" IsPassword="True"/>
+                <BoxView HeightRequest="1" Color="#4529BA"/>
+            </VerticalStackLayout>
+
+            <Button Text="Login" CornerRadius="20" BackgroundColor="#4529BA" TextColor="White"/>
+
+        </VerticalStackLayout>
+    </ContentPage.Content>
+</ContentPage>
