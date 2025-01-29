@@ -6,7 +6,7 @@
         {
             InitializeComponent();
 
-            MainPage = new Login();
+            MainPage = new RecuperarContraseña();
         }
     }
 }
