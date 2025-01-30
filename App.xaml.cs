@@ -6,7 +6,7 @@
         {
             InitializeComponent();
 
-            MainPage = new RecuperarContraseña();
+            MainPage = new RegistroUsuario();
         }
     }
 }
